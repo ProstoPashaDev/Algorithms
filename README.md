@@ -9,6 +9,7 @@ The collection covers fundamental computer science topics, including:
 - Sorting methods
 - Data structures
 - Optimization and numerical techniques
+- Differential equations solve methods
 
 ---
 
@@ -42,6 +43,14 @@ The collection covers fundamental computer science topics, including:
 - **Gradient Descent** – Iterative optimization algorithm for minimizing functions  
 - **Double Pointers Technique** – Efficient two-pointer algorithm for array problems  
 - **Scanline Algorithm** – Line sweep technique for geometry and interval problems  
+
+---
+
+### 🧮 Differential equations solve Methods
+- **Euler method** – One-step iterative method that approximates the solution of ODEs using the slope at the beginning of each interval; simple but less accurate.
+- **Runge–Kutta method (RK4)** – One-step iterative method that computes slopes at multiple points within each step to achieve higher accuracy; widely used for general-purpose ODE solving.
+- **Adams method** – Multistep method that uses previous points’ slopes (explicit Adams–Bashforth or implicit Adams–Moulton) to predict the next value; efficient and accurate for longer intervals, often initialized with a one-step method.
+
 
 ---
 
